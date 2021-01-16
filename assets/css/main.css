@@ -4692,11 +4692,13 @@ input, select, textarea {
 	.skillicon{
 		max-width: 75x;
 		max-height: 70px;
+		margin-bottom: 0px;
 		
 	}
 	.skilltext{
 		text-align: center;
-		margin: 10px 0px;
+		margin-bottom: 10px;
+		margin-top: 0px;
 	}
 	.profilepic{
 		border-radius: 20%;
