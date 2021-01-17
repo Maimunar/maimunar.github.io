@@ -254,5 +254,14 @@
 			});
 
 		}
+		$(window).on("scroll", function(){
+
+			if($("html").scrollTop() >= 800){
+			  document.getElementById('navPanelToggle').style.color = "black";
+			}
+			else {
+			  document.getElementById('navPanelToggle').style.color = "white";
+			}
+		})
 
 })(jQuery);

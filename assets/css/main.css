@@ -1057,6 +1057,11 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+			ul.icons {
+			display: grid;
+			align-self: start;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1301,7 +1306,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			.personal-info{
+				display:grid;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1791,6 +1798,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 360px) {
+
 
 			.row {
 				display: flex;
