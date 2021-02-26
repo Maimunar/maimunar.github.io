@@ -1,94 +1,143 @@
-<!DOCTYPE HTML>
-
-<html>
-	<head>
-		<title>Aleksandar Ivanov Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Aleksandar Ivanov</h1>
-						<p>Second year ICT & Software Engineering student <br> at <a href="https://fontys.nl/">Fontys University of Applied Sciences</a></p>
-						<ul class="actions">
-							<li><a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-						</ul>
-						<ul class="icons">
-							<li><a href="https://github.com/Maimunar" target="_blank" class="icon brands fa-github" >GitHub<span class="label">GitHub</span></a></li>
-							<li><a href="https://www.linkedin.com/in/aleksandar-ivanov-1a35981a1/" target="_blank" class="icon brands fa-linkedin" >LinkedIn<span class="label">LinkedIn</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<!-- Posts -->
-							<section class="posts">
-								<article class="personal-info">
-									<a class="image left"><img src="images/me.jpg" alt="me" class="profilepic"/></a>
-									<p>I am a 20 year old ICT & Software Engineering student at Fontys. Originally from Sofia, Bulgaria, I moved to the Netherlands in 2019. I am also fluent in English and have sufficient knowledge of German certified at C1.</br>
-									Currently studying in my second year at Fontys UAS while working on my academic preparation for a premaster at TU/e.</br>
-									<b>Contact Info:</b><br>
-									<i>Email : aleksander.iv2000@gmail.com</i> <br>
-									<i>Phone number : +359 89 345 3891</i> <br>
-									</p>
-								</article>
-								<article>
-									<header>
-										<h2><a>Software Skills</a></h2>
-										<i>Click on the specific languages to see projects on the topics</i>
-									</header>
-									<!-- First Main Language -->
-									<img src="images/nodejs.png" class="skillicon" width="150"/><p class="skilltext">
-										<a href="https://github.com/Maimunar/its-backend" target="_blank">Express RESTful API</a></p> 
-									<!-- Second Main Language -->
-									<img src="images/react.png" class="skillicon" /><p class="skilltext">
-										<a href="https://github.com/Maimunar/its-frontend" target="_blank">Frontend in own fullstack Application</a></p> 		
-									<!-- Third Main Language -->
-									<img src="images/csharp.png" class="skillicon"/><p class="skilltext">
-										<a href="https://github.com/Maimunar/S2_WPF_Project" target="_blank">WPF (MVVM model)</a>; 
-										<a href="https://github.com/Maimunar/S1_WinForms_Project" target="_blank">WinForms</a>; 
-										<a href="https://github.com/Maimunar/sdl-trados-translation-plugin" target="_blank">SDL Trados Plugin;</a> </p>
-									<!-- Fourth Main Language -->
-									<img src="images/python.png" class="skillicon"/><p class="skilltext">Python Fundamentals + 
-										<a href="https://github.com/Maimunar/Jupyter_Research_Paper_Math" target="_blank">Jupyter Notebook</a></p>
-									<!-- Other Languages -->
-									<a href="https://github.com/Maimunar/S2_PHP_Musaka" target="_blank"><img src="images/php.png"  class="skillicon"/></a>	
-									<a href="https://github.com/Maimunar/S2_Laravel_Musaka" target="_blank"><img src="images/laravel.png"  class="skillicon"/></a>
-									<a href="https://github.com/Maimunar/Arduino_Casino" target="_blank"><img src="images/arduino.png"  class="skillicon"/></a>
-									<p class="skilltext">HTML, CSS, Javascript, Bootstrap</p>
-								</article>
-
-							</section>
-					</div>
-
-			
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Aleksandar Ivanov's portfolio 2021</li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Aleksandar Ivanov Portfolio</title>
+</head>
+<body>
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#contact-me">Contact</a>
+        <a class="nav-img" target="_blank" href="https://www.linkedin.com/in/aleksandar-ivanov-1a35981a1/">
+            <img src="assets/images/linkedin.png" alt="My Linkedin Profile"/>
+        </a>
+        <a class="nav-img" target="_blank" href="https://github.com/Maimunar">
+            <img src="assets/images/github.png" alt="My Github Profile"/>
+        </a>
+    </nav>
+    <div class="welcome">
+        <h1>Hello</h1>
+        <h2>I am Aleksandar</h2>
+        <h5>A web developer</h5>
+        <a href="#projects">
+            <img src="assets/images/down-arrow.png" alt="down-arrow"/>
+        </a>
+    </div>
+    <div id="projects">
+        <h3>Some of my work</h3>
+        <div class="projects-grid">
+            <a href="https://github.com/Maimunar/its-backend" target="_blank">
+                <div class="project-container">
+                    <div class="project-img-container">
+                        <img src="assets/images/projects/ITS.png" alt="Impericion Merch Website">
+                    </div>
+                    <div class="project-description-container">
+                        <div class="project-title">
+                            <h4 class="project-code">&lt;</h3>
+                            <h4>Merch Website</h3>
+                            <h4 class="project-code">/&gt;</h3>
+                        </div>
+                        <h5>NodeJS, React, Websockets, JWT Authentication, CI/CD, CSS</h5>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/Maimunar/sdl-trados-translation-plugin" target="_blank">
+                <div class="project-container">
+                    <div class="project-img-container">
+                        <img src="assets/images/projects/SDL.png" alt="Impericion Merch Website">
+                    </div>
+                    <div class="project-description-container">
+                        <div class="project-title">
+                            <h4 class="project-code">&lt;</h3>
+                            <h4>EU Docs Translator</h3>
+                            <h4 class="project-code">/&gt;</h3>
+                        </div>
+                        <h5>SDL Trados studio, C#, EUR/LEX Database, SOAP Request</h5>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/Maimunar/Jupyter_Research_Paper_Math" target="_blank">
+                <div class="project-container">
+                    <div class="project-img-container">
+                        <img src="assets/images/projects/MonteCarlo.png" alt="Impericion Merch Website">
+                    </div>
+                    <div class="project-description-container">
+                        <div class="project-title">
+                            <h4 class="project-code">&lt;</h3>
+                            <h4>Estimating Pi</h3>
+                            <h4 class="project-code">/&gt;</h3>
+                        </div>
+                        <h5>Python, Jupyter Notebook, Monte Carlo, Statistics, Plotting</h5>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/Maimunar/S2_Laravel_Musaka" target="_blank">
+                <div class="project-container">
+                    <div class="project-img-container">
+                        <img src="assets/images/projects/Musaka.png" id="musaka-pic" alt="Impericion Merch Website">
+                    </div>
+                    <div class="project-description-container">
+                        <div class="project-title">
+                            <h4 class="project-code">&lt;</h3>
+                            <h4>Recipes Website</h3>
+                            <h4 class="project-code">/&gt;</h3>
+                        </div>
+                        <h5>PHP, Laravel, MVC, Email Service</h5>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/Maimunar/S2_WPF_Project" target="_blank">
+                <div class="project-container">
+                    <div class="project-img-container">
+                        <img src="assets/images/projects/Warehouse.png" alt="Impericion Merch Website">
+                    </div>
+                    <div class="project-description-container">
+                        <div class="project-title">
+                            <h4 class="project-code">&lt;</h3>
+                            <h4>Warehouse</h3>
+                            <h4 class="project-code">/&gt;</h3>
+                        </div>
+                        <h5>C#, WPF, MVVM, Resizable Desktop Apps</h5>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/Maimunar/onion-game-backend" target="_blank">
+                <div class="project-container">
+                    <div class="project-img-container">
+                        <img src="assets/images/projects/TheOnionOrNot.png" alt="Impericion Merch Website">
+                    </div>
+                    <div class="project-description-container">
+                        <div class="project-title">
+                            <h4 class="project-code">&lt;</h3>
+                            <h4>The Onion or not</h3>
+                            <h4 class="project-code">/&gt;</h3>
+                        </div>
+                        <h5>NodeJS, React, Data Collection</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <a id="view-all" href="https://github.com/Maimunar" target="_blank">
+            <button>View All Projects ></button>
+        </a>
+    </div>
+    <div id="contact-me">
+        <h3>Like what you see?</h2>
+        <h2>Let's work together!</h2>
+        <span></span>
+        <div class="contact-info">
+            <p><i>Email:</i> aleksander.iv2000@gmail.com</p>
+            <p><i>Phone/WhatsApp:</i> +359 89 345 3891</p>
+            <a href="https://www.linkedin.com/in/aleksandar-ivanov-1a35981a1/">Linkedin</a>
+            <a href="https://github.com/Maimunar">Github</a>
+        </div>
+        <span></span>
+    </div>
+    
+    <footer>
+        <p>© ALEKSANDAR IVANOV'S PORTFOLIO 2021</p>
+    </footer>
+</body>
 </html>
